@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <!-- LINK FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER DESIGN -->
+    <header class="header">
+        <a href="" class="logo">Nikhil <span>Gulati</span></a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HOME SECTION DESIGN -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>Nikhil Gulati</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Student - DAV Institute of Engineering and Technology, Jalandhar</p>
+            <div class="social-media">
+                <a href="https://github.com/Nikhil1007-s"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/nikhil-gulati-1a5a6822a/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/nikhilgulati101?igsh=MXVqMDF4bWczMGx0bA%3D%3D&utm_source=qr"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://twitter.com/NikhilGulati197"><i class="fa-brands fa-square-x-twitter"></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="Assets/personal-photo.png" alt="">
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION DESIGN -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Assets/about-photo.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>ME</span></h2>
+            <!-- <h3><span class="multiple-text"></span></h3> -->
+            <p>I am currently a student of B.tech CSE in DAV Institute of Engineering and Technology. I am having both FrontEnd and BackEnd skills..... HTML,CSS,JavaScript,Express.JS,NodeJS etc.I'm fluent in English and have decent communication skills. I am currently looking for a JOB :)[The READ MORE button is not working currently].</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION DESIGN -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="Assets/project-images/curr-conv.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Currency Converter Chrome-Extension</h4>
+                    <a href="https://github.com/Nikhil1007-s/Currency-Converter-Chrome-Extension"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="Assets/project-images/chatbot.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Smart Chat Bot</h4>
+                    <a href="https://github.com/Nikhil1007-s/Smart-ChatBot"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="Assets/project-images/Todo.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>ToDo WebApp</h4>
+                    <a href="https://github.com/Nikhil1007-s/ToDo-WebApp"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="Assets/project-images/spotify-clone.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Spotify UI Clone</h4>
+                    <a href="https://github.com/Nikhil1007-s/Spotify-UI-Clone/tree/main"><i class="fa-brands fa-github"></i></a>
+                    <br>
+                    <a href="https://nikhil1007-s.github.io/Spotify-UI-Clone/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="Assets/project-images/netflix-clone.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Netflix UI Clone</h4>
+                    <a href="https://github.com/Nikhil1007-s/Netflix-UI-Clone"><i class="fa-brands fa-github"></i></a>
+                    <br>
+                    <a href="https://nikhil1007-s.github.io/Netflix-UI-Clone/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION DESIGN -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- FOOTER DESIGN -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by NikhilGulati | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-icon-top">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <!-- SCROLL REVEAL JS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- TYPED JS -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+    <!-- MAIN JS -->
+    <script src="main.js"></script>
+</body>
+</html>
